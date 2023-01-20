@@ -1,0 +1,270 @@
+:root {
+    --bg-color-1: #282e39;
+    --bg-color-2: #2b2f37;
+    --bg-color-3: #798694;
+    --bg-color-4: #f4f4f4;
+    --color-blue: #97a9bd;
+    --color-purple: #a197bd;
+    --color-orange: #bda697;
+    --color-green: #97bdab;
+    --color-white: #e7ffff;
+    --color-gray: #a5a6aa;
+    --color-link: rgb(103, 123, 162);
+  }
+
+.box-1{
+    text-align: center;
+    height: 700px;
+    background-color: var(--bg-color-2);
+}
+.box-1 .title{
+    padding: 200px 0;
+    color: var(--color-white);
+}
+.box-1 .title h2{
+    font-size: 56px;
+}
+.box-1 .title p{
+    font-size: 14px;
+    padding: 40px 0 60px 0;
+}
+.box-1 .title a{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 10px 15px;
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    transition: .3s ease-in-out;
+}
+.box-1 .title a:hover{
+    background-color: unset;
+    border: 1px solid var(--color-white);
+}
+/********************************************* End box-1 ***************************************/
+.box-2{
+    min-height: 750px;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box-2 article{
+    display: inline-block;
+    position: absolute;
+    top: -5rem;
+    list-style-type: none;
+    text-align: center;
+}
+.box-2 article li{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #97a9bd;
+    text-align: center;
+    justify-self: center;
+    max-width: 250px;
+    min-height: 200px;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: whitesmoke;
+    box-shadow: 0 0 5px rgb(0,0,0,50%);
+    margin: 20px;
+
+}
+.box-2 article li:first-child{margin-left: 0;}
+.box-2 article li:last-child{margin-right: 0;}
+.box-2 article li a{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    margin: 15px 0;
+}
+.box-2 article li a i{
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+}
+.box-2 article li h3{
+    font-size: 16px;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+.box-2 article li p{
+    font-size: 14px;
+    padding: 15px 20px 30px 20px;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+.box-2 article li:nth-child(1){background-color: var(--color-blue); transition: .3s ease-in-out;}
+.box-2 article li:nth-child(1) a i{color: var(--color-blue); transition: .3s ease-in-out; transition-delay: .3s;}
+.box-2 article li:nth-child(2){background-color: var(--color-purple); transition: .3s ease-in-out;}
+.box-2 article li:nth-child(2) a i{color: var(--color-purple); transition: .3s ease-in-out; transition-delay: .3s;}
+.box-2 article li:nth-child(3){background-color: var(--color-orange); transition: .3s ease-in-out;}
+.box-2 article li:nth-child(3) a i{color: var(--color-orange); transition: .3s ease-in-out; transition-delay: .3s;}
+.box-2 article li:nth-child(4){background-color: var(--color-green); transition: .3s ease-in-out;}
+.box-2 article li:nth-child(4) a i{color: var(--color-green); transition: .3s ease-in-out; transition-delay: .3s;}
+
+
+/* Hover */
+.box-2 article li:hover{background-color: whitesmoke;}
+.box-2 article li:nth-child(1):hover a{background-color: var(--color-blue);}
+.box-2 article li:nth-child(2):hover a{background-color: var(--color-purple);}
+.box-2 article li:nth-child(3):hover a{background-color: var(--color-orange);}
+.box-2 article li:nth-child(4):hover a{background-color: var(--color-green);}
+.box-2 article li:hover a i{color: whitesmoke;}
+.box-2 article li:hover h3{color: #000;}
+.box-2 article li:hover p{color: #000;}
+/* End box-2 article */
+
+.box-2 .item{
+    display: inline-block;
+    margin-top: 15rem;
+    list-style-type: none;
+    text-align: center;
+}
+.item li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    position: relative;
+    margin: 0 10px;
+}
+.item li img{
+    max-width: 550px;
+    max-height: 350px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+}
+.item li .detail{
+    width: 550px;
+    position: absolute;
+    top: 350px;
+    z-index: 90;
+    padding: 10px 15px;
+    border: 1px solid var(--bg-color-3);
+    border-top: none;
+    transition: .3s ease-in-out;
+}
+
+.item li .detail p{
+    display: inline;
+    font-size: 18px;
+    color: #000;
+    transition: .3s ease-in-out;
+}
+.item li .detail i{
+    float: right;
+    padding: 5px 9px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: var(--bg-color-3);
+    transition: .3s ease-in-out;
+}
+
+/* Hover */
+.item li:hover .detail{background-color: var(--bg-color-3);}
+.item li:hover p{color: whitesmoke;}
+.item li:hover i{
+    color: var(--bg-color-3);
+    background-color: whitesmoke;
+}
+/********************************* End box2 **************************************/
+
+.box-3{
+    background-color: var(--bg-color-3);
+    padding: 80px 0;
+}
+.box-3 .topic{
+    text-align: center;
+    color: whitesmoke;
+}
+.box-3 .topic span{
+    font-size: 14px;
+}
+.box-3 .topic h2{
+    font-size: 30px;
+}
+
+.box-3 article{
+    padding-top: 60px;
+    text-align: center;
+    list-style-type: none;
+}
+.box-3 article li{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    min-height: 230px;
+    line-height-step: 1rem;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgb(0,0,0, 30%);
+    transition: .3s ease-in-out;
+}
+.box-3 article li a{
+    padding: 15px;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+}   
+.box-3 article li a i{
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    color: whitesmoke;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+.box-3 article li h3{
+    font-size: 18px;
+    padding-top: 20px;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+.box-3 article li p{
+    font-size: 14px;
+    padding-top: 10px;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+
+/* Hover */
+.box-3 article li:hover{background-color: var(--color-blue);}
+.box-3 article li:hover a{background-color: whitesmoke;}
+.box-3 article li:hover a i{color: var(--color-blue);}
+.box-3 article li:hover h3{color: whitesmoke;}
+.box-3 article li:hover p{color: whitesmoke;}
+/************************************************** End box-3 ********************************************/
+
+.box-4{
+    height: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+.box-4 .topic span{
+    font-size: 14px;
+}
+.box-4 .topic h2{
+    font-size: 30px;
+}
+
+.box-4 article{
+    padding-top: 80px;
+    list-style-type: none;
+    display: inline-block;
+}
+.box-4 article li{
+    display: inline-flex;
+}
