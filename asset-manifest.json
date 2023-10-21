@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7BChillAid-React%7D/static/css/main.11644d9e.css",
+    "main.js": "/%7BChillAid-React%7D/static/js/main.74778b48.js",
+    "static/js/787.e59bc8ee.chunk.js": "/%7BChillAid-React%7D/static/js/787.e59bc8ee.chunk.js",
+    "index.html": "/%7BChillAid-React%7D/index.html",
+    "main.11644d9e.css.map": "/%7BChillAid-React%7D/static/css/main.11644d9e.css.map",
+    "main.74778b48.js.map": "/%7BChillAid-React%7D/static/js/main.74778b48.js.map",
+    "787.e59bc8ee.chunk.js.map": "/%7BChillAid-React%7D/static/js/787.e59bc8ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11644d9e.css",
+    "static/js/main.74778b48.js"
+  ]
+}
