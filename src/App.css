@@ -71,7 +71,7 @@ h5 {
 .menubar nav a {
   text-decoration: none;
   color: var(--color-white);
-  padding: 31px 15px;
+  padding: 33px 15px;
   transition: .3s ease-in-out;
 }
 
@@ -85,7 +85,7 @@ h5 {
   top: 50px;
   left: 10px;
   z-index: 99;
-  min-width: 130px;
+  min-width: 140px;
   opacity: 0.9;
 }
 
@@ -106,7 +106,7 @@ h5 {
   top: 50px;
   left: 10px;
   z-index: 99;
-  min-width: 150px;
+  min-width: 160px;
   opacity: 0.9;
 }
 
@@ -125,7 +125,7 @@ h5 {
   display: none;
   position: absolute;
   top: 0;
-  left: 150px;
+  left: 160px;
   z-index: 99;
   min-width: 150px;
 }
@@ -283,7 +283,7 @@ padding-top: 20px;
   border: none;
   outline: none;
   background-color: var(--color-blue);
-  color: var(--color-white);
+  color: white;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -300,6 +300,11 @@ padding-top: 20px;
 .feedback .contacts li:hover span{color: white;}
 .feedback .contacts li:hover span a{color: white;}
 
+.feedback .email .feedback-email button:hover{
+  color: var(--color-blue);
+  background-color: white;
+  border: 1px solid var(--color-blue);
+}
 /***************************************************** End Feedback ********************************************************/
 .footer {
   width: 100%;
